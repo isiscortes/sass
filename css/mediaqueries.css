@@ -1,13 +1,3 @@
-* {
-    box-sizing: border-box;
-    margin: 0;
-    padding: 0;
-   }
-  
-
- .texto--centrado{
-  text-align: center
- }
 
 
 
@@ -16,411 +6,111 @@
 
 @media all and (max-width: 768px){
 
-  .container{
-    max-width: 768px;
-    margin: 0px auto;
-    position: relative;
-  }
 
-
+.header {
+  background-image: url(../img/hamburger.jpg);
+  height: 250px;
+  background-size: 100% 100%; }
 
 ul, .texto {
   display: none;
+}
+
+.rectangulo {
+  width: 500px;
+  height: 4px;
+  margin-bottom: 9%; 
+  margin-top: 5%;}
+
+.uno {
+  background-color: #01579b; }
+
+nav .brand-logo{
+  font-size: 1em;
+}
+
+.catering{
+  display: none;
+}
+
+h1{
+  font-size: 10%;
+  margin-top: 15%;
+  margin-left: 3%;
+
 }
 
 .resize{
   display: block;
   margin: auto;
   height: 80%;
-  background-size: 100% 100%;
-}
-
-
-.row {
-  margin-left: -14px;
-  margin-right: -14px;
-}
-
-.row:before, .row:after{
-  content: " ";
-  display: table;
-}
-
-.row:after {
-  clear: both;
-}
-
-[class*="col-"] {
-  min-height: 7px;
-  padding: 0 14px;
-  float: left;
-}
-
-
-  .col-xs-1 {
-  width: 8.333333%;
-} 
-
-  .col-xs-2 {
-  /* (2 / 12) x 100 */
-  width: 16.666667%;
-} 
-
-  .col-xs-3 {
-  /* (3 / 12) x 100 */
-  width: 25%;
-} 
-
-  .col-xs-4 {
-  /* (4 / 12) x 100 */
-  width: 33.333333%;
-}
-
-  .col-xs-5 {
-  /* (5 / 12) x 100 */
-  width: 41.666667%;
-}
-
-  .col-xs-6 {
-  /* (6 / 12) x 100 */
-  width: 50%;
-} 
-
-  .col-xs-7 {
-  /* (7 / 12) x 100 */
-  width: 58.333333%;
-}
-
-  .col-xs-8 {
-  /* (8 / 12) x 100 */
-  width: 66.666667%;
-}
-
-  .col-xs-9 {
-  /* (9 / 12) x 100 */
-  width: 75%;
-}
-
-  .col-xs-10 {
-  /* (10 / 12) x 100 */
-  width: 83.333333%;
-}
-
-  .col-xs-11 {
-  /* (11 / 12) x 100 */
-  width: 91.666667%;
-}
-
-  .col-xs-12 {
-  /* (12 / 12) x 100 */
   width: 100%;
 }
-  
-}
+
 
 /* Tablet  Small size display*/
 
 @media  all  and (min-width: 768px) and (max-width: 992px ){
 
-  .container{
-    max-width: 992px;
-    margin: 0px auto;
-    position: relative;
-  }
+.rectangulo {
+  width: 100%;
+  height: 4px;
+  margin-bottom: 9%; 
+  margin-top: 5%;}
+
+.uno {
+  background-color: #01579b; }
+
+  
+.header {
+  background-image: url(../img/hamburger.jpg);
+  height: 300px;
+  background-size: 100% 100%; }
+
+nav .brand-logo{
+  font-size: 1em;
+}
 
 ul, .texto {
   display: none;
 }
 
+.txt_movil{
+  font-size: 30px;
+  font-weight: bold
+}
 
 .resize{
   display: block;
   margin: auto;
   height: 80%;
-  background-size: 100% 100%;
-}
-
-.row {
-  margin-left: -14px;
-  margin-right: -14px;
-
-}
-
-.row:before, .row:after{
-  content: " ";
-  display: table;
-}
-
-.row:after {
-  clear: both;
-}
-
-[class*="col-"] {
-  min-height: 7px;
-  padding: 0 14px;
-  float: left;
-}
-
-  .col-s-1 {
-  width: 8.333333%;
-} 
-
-  .col-s-2 {
-  /* (2 / 12) x 100 */
-  width: 16.666667%;
-} 
-
-  .col-s-3 {
-  /* (3 / 12) x 100 */
-  width: 25%;
-} 
-
-  .col-s-4 {
-  /* (4 / 12) x 100 */
-  width: 33.333333%;
-}
-
-  .col-s-5 {
-  /* (5 / 12) x 100 */
-  width: 41.666667%;
-}
-
-  .col-s-6 {
-  /* (6 / 12) x 100 */
-  width: 50%;
-} 
-
-  .col-s-7 {
-  /* (7 / 12) x 100 */
-  width: 58.333333%;
-}
-
-  .col-s-8 {
-  /* (8 / 12) x 100 */
-  width: 66.666667%;
-}
-
-  .col-s-9 {
-  /* (9 / 12) x 100 */
-  width: 75%;
-}
-
-  .col-s-10 {
-  /* (10 / 12) x 100 */
-  width: 83.333333%;
-}
-
-  .col-s-11 {
-  /* (11 / 12) x 100 */
-  width: 91.666667%;
-}
-
-  .col-s-12 {
-  /* (12 / 12) x 100 */
   width: 100%;
 }
 
-  
-}
+
 
 /* Laptop  Medium size display*/
 
 @media  all  and (min-width: 992px) and (max-width: 1200px ){
-  .container{
-    max-width: 1200px;
-    margin: 0px auto;
-    position: relative;
-  }
+  .header {
+  background-image: url(../img/hamburger.jpg);
+  height: 400px;
+  background-size: 100% 100%; }
+  .header h1 {
+    margin-top: 25%;
+    margin-left: 3%; }
 
 
-.resize{
-  display: block;
-  margin: auto;
-  height: 80%;
-  background-size: 100% 100%;
-}
-
-.row {
-  margin-left: -14px;
-  margin-right: -14px;
-
-}
-
-.row:before, .row:after{
-  content: " ";
-  display: table;
-}
-
-.row:after {
-  clear: both;
-}
-
-[class*="col-"] {
-  min-height: 7px;
-  padding: 0 14px;
-  float: left;
-}
-
-
-  .col-md-1 {
-  width: 8.333333%;
-} 
-
-  .col-md-2 {
-  /* (2 / 12) x 100 */
-  width: 16.666667%;
-} 
-
-  .col-md-3 {
-  /* (3 / 12) x 100 */
-  width: 25%;
-} 
-
-  .col-md-4 {
-  /* (4 / 12) x 100 */
-  width: 33.333333%;
-}
-
-  .col-md-5 {
-  /* (5 / 12) x 100 */
-  width: 41.666667%;
-}
-
-  .col-md-6 {
-  /* (6 / 12) x 100 */
-  width: 50%;
-} 
-
-  .col-md-7 {
-  /* (7 / 12) x 100 */
-  width: 58.333333%;
-}
-
-  .col-md-8 {
-  /* (8 / 12) x 100 */
-  width: 66.666667%;
-}
-
-  .col-md-9 {
-  /* (9 / 12) x 100 */
-  width: 75%;
-}
-
-  .col-md-10 {
-  /* (10 / 12) x 100 */
-  width: 83.333333%;
-}
-
-  .col-md-11 {
-  /* (11 / 12) x 100 */
-  width: 91.666667%;
-}
-
-  .col-md-12 {
-  /* (12 / 12) x 100 */
-  width: 100%;
-}
-  
-}
 
 /* Desktop  Large size display*/
 
 
 @media all and (min-width: 1200px){
-  .container{
-    max-width: 1200px;
-    margin: 0px auto;
-    position: relative;
-  }
+  .header {
+  background-image: url(../img/hamburger.jpg);
+  height: 500px;
+  background-size: 100% 100%; }
+  .header h1 {
+    margin-top: 33%;
+    margin-left: 3%; }
 
-
-
-.resize{
-  display: block;
-  margin: auto;
-  height: 80%;
-  background-size: 100% 100%;
-}
-}
-
-.row {
-  margin-left: -14px;
-  margin-right: -14px;
-
-}
-
-.row:before, .row:after{
-  content: " ";
-  display: table;
-}
-
-.row:after {
-  clear: both;
-}
-
-[class*="col-"] {
-  min-height: 7px;
-  padding: 0 14px;
-  float: left;
-}
-
-  .col-lg-1 {
-  width: 8.333333%;
-} 
-
-  .col-lg-2 {
-  /* (2 / 12) x 100 */
-  width: 16.666667%;
-} 
-
-  .col-lg-3 {
-  /* (3 / 12) x 100 */
-  width: 25%;
-} 
-
-  .col-lg-4 {
-  /* (4 / 12) x 100 */
-  width: 33.333333%;
-}
-
-  .col-lg-5 {
-  /* (5 / 12) x 100 */
-  width: 41.666667%;
-}
-
-  .col-lg-6 {
-  /* (6 / 12) x 100 */
-  width: 50%;
-} 
-
-  .col-lg-7 {
-  /* (7 / 12) x 100 */
-  width: 58.333333%;
-}
-
-  .col-lg-8 {
-  /* (8 / 12) x 100 */
-  width: 66.666667%;
-}
-
-  .col-lg-9 {
-  /* (9 / 12) x 100 */
-  width: 75%;
-}
-
-  .col-lg-10 {
-  /* (10 / 12) x 100 */
-  width: 83.333333%;
-}
-
-  .col-lg-11 {
-  /* (11 / 12) x 100 */
-  width: 91.666667%;
-}
-
-  .col-lg-12 {
-  /* (12 / 12) x 100 */
-  width: 100%;
-}
-  
-}

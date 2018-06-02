@@ -1,98 +1,76 @@
-*{
-	font-family: 'Amiri', serif;
-}
+body {
+  font-family: "Amiri", serif; }
+
+.header {
+  background-image: url(../img/hamburger.jpg);
+  height: 500px;
+  background-size: 100% 100%; }
+  .header h1 {
+    margin-top: 33%;
+    margin-left: 3%; }
+
+.navbar {
+  background-color: #F5F5F5;
+  padding: 1%; }
+  .navbar .txt_nav {
+    color: gray;
+    text-align: left;
+    padding: 0%; }
+  .navbar a {
+    text-decoration: none;
+    color: gray; }
+
+.spacing {
+  margin-top: 3%;
+  margin-bottom: 1%; }
+  .spacing p {
+    padding: 2%; }
+  .spacing .texto--centrado {
+    text-align: center; }
+  .spacing .resize {
+    display: block;
+    margin: auto;
+    height: 80%;
+    width: 100%; }
+
+.bold {
+  font-weight: bold;
+  margin-top: 2%; }
+
+.txtazul {
+  color: #01579b;
+  font-weight: bold;
+  margin-top: 2%; }
 
 
-.navbar{
-	color: #F5F5F5;
-	padding: 1%;
-}
-
-.spacing{
-	margin-top: 3%;
-	margin-bottom: 1%;
-}
-
-h1{
-	margin-top: 33%;
-	margin-left: 3%;
-}
-
-p{
-	padding: 2%;
-}
-
-.blue{
-	color: navy;
-	padding: 0%;
-	margin-left: 2%;
-}
-
-.txt_nav{
-	color: gray;
-	text-align: left;
-	padding: 0%;
-}
-
-.bold{
-	font-weight: bold;
-	margin-top: 2%;
-}
-
-a{
-	text-decoration: none;
-	color: gray;
-}
-
-.header{
-	background-image: url(../img/hamburger.jpg);
-	height: 500px;
-	background-size: 100% 100%;
-}
-
-.padding{
-	margin-top: 15%;
-}
-
-.resize{
-	display: block;
-	margin: auto;
-	height: 80%;
-	background-size: 100% 100%;
-}
-
-.bloquefooter{
-	display: inline-block;
-}
-
-footer{
-    background-color:#F5F5F5;  
-    color:  #808080; 
-    padding: 20px;
-    text-align: center; 
-}
+.footer {
+  background-color: #F5F5F5;
+  color: #808080;
+  padding: 20px;
+  text-align: center; }
+  .footer .bloquefooter {
+    display: inline-block; }
 
 input {
-    width: 100%;
-}
+  width: 100%; }
 
 textarea {
-    width: 100%;
-    height: 150px;
-    padding: 12px 20px;
-    box-sizing: border-box;
-    border: 2px solid #ccc;
-    border-radius: 4px;
-    background-color: #f8f8f8;
-    resize: none;
-}
+  width: 100%;
+  height: 150px;
+  padding: 12px 20px;
+  box-sizing: border-box;
+  border: 2px solid #ccc;
+  border-radius: 4px;
+  background-color: #f8f8f8;
+  resize: none; }
 
 button {
-    background-color: #4CAF50;
-    border: none;
-    color: white;
-    padding: 16px 32px;
-    text-decoration: none;
-    margin: 4px 2px;
-    cursor: pointer;
-}
+  background-color: #00b0ff;
+  border: none;
+  color: white;
+  padding: 16px 32px;
+  text-decoration: none;
+  margin: 4px 2px;
+  cursor: pointer; }
+
+/*# sourceMappingURL=style.css.map */
