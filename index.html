@@ -3,62 +3,92 @@
 <head>
 	<meta charset="UTF-8">
 	<title>Document</title>
+	<meta name="viewport" content="width=device-width, initial-scale=1.0">
+	<meta http-equiv="X-UA-Compatible" content="ie=edge">
+	<link rel="stylesheet" href="css/style.css">
+    <link rel="stylesheet" href="css/mediaqueries.css">
+
 </head>
-<body>
+<body class="container-fluid">
 	<header>
 		<nav class="navbar">
-			<p class="bold"> Gourmet Catering </p>
-			<ul>
-				<a class="navbar-brand" href="#about"><il> ABOUT </il></a>
-				<a class="navbar-brand" href="#menu"><il> MENU </il></a>
-				<a class="navbar-brand" href="#contact"><il> CONTACT </il></a>
+			<div class="row">
+				<div class="col-xs-12 col-s-12 col-md-9 col-lg-9">
+					<p class="bold"> Gourmet Catering </p>
+				</div>
+				<div class="col md-3 col-lg-3">
+					<ul>
+						<a class="navbar-brand" href="#about"><il> ABOUT </il></a>
+						<a class="navbar-brand" href="#menu"><il> MENU </il></a>
+						<a class="navbar-brand" href="#contact"><il> CONTACT </il></a>
+					</ul>
+				</div>
+			</div>
 		</nav>
 
-		<div class="padding">
+		<div class="row header">
 			<h1> Le Catering </h1>
 		</div>
 	</header>
-	<section id="about">
-		<h2> About Catering </h2>
-		<p> Tradition since 1889 </p> 
-		<p> Lorem ipsum dolor sit amet, consectetur adipisicing elit. Voluptatibus ab a nostrum repudiandae dolorem ut quaerat veniam asperiores, rerum voluptatem magni dolores corporis! Molestiae commodi nesciunt a, repudiandae repellendus ea.</p>
+	<section id="about" class="row">
+		<div class="col-xs-12 col-s-12 col-md-6 col-lg-6">
+			<h2> About Catering </h2>
+			<p> Tradition since 1889 </p> 
+			<p> Lorem ipsum dolor sit amet, consectetur adipisicing elit. Voluptatibus ab a nostrum repudiandae dolorem ut quaerat veniam asperiores, rerum voluptatem magni dolores corporis! Molestiae commodi nesciunt a, repudiandae repellendus ea.</p>
+		</div>
+		<div class="col-xs-12 col-s-12 col-md-6 col-lg-6">
+			<img class="resize" src="img/tablesetting.jpg" alt="cenital de comida">
+		</div>
 	</section>
-	<section id="menu">
-		<h2> Our Menu</h2>
-		<p> Bread Basket </p>
-		<p> Freshly baked panini with butter and fruits. </p>
-		<p>Honey Almond Granola with Fruits</p>
-		<p> Granola mixed with blueberries and banana.
-		<p>Belgian Waffle</p>
-		<p> A delicious start with a crispy waffle and honey.</p>
-		<p>Scrambled Eggs</p>
-		<p> Our favorite breakfast. Eggs with tomatoes, spices and onions. </p>
-		<p>Blueberry Pancakes</p>
-		<p> For our fitness lovers, we made banana pancakes with blueberry. </p>
-
+	<section id="menu" class="row">
+		<div class="col-xs-12 col-s-12 col-md-6 col-lg-6">
+			<img class="resize" src="img/tablesetting2.jpg" alt="menu gourmet">
+		</div>
+		<div class="col-xs-12 col-s-12 col-md-6 col-lg-6">
+			<h2> Our Menu</h2>
+			<p> Bread Basket </p>
+			<p> Freshly baked panini with butter and fruits. </p>
+			<p>Honey Almond Granola with Fruits</p>
+			<p> Granola mixed with blueberries and banana.</p>
+			<p>Belgian Waffle</p>
+			<p> A delicious start with a crispy waffle and honey.</p>
+			<p>Scrambled Eggs</p>
+			<p> Our favorite breakfast. Eggs with tomatoes, spices and onions. </p>
+			<p>Blueberry Pancakes</p>
+			<p> For our fitness lovers, we made banana pancakes with blueberry. </p>
+		</div>
 	</section>
 
 	<section id="contact">
-		<h2>Contact</h2>
-		<p> Lorem ipsum dolor sit amet, consectetur adipisicing elit. Voluptatem odit esse quae, et praesentium eligendi, corporis minima repudiandae similique voluptatum, inventore quia velit sequi asperiores obcaecati ex. Dolorem, temporibus, doloremque.</p>
+		<div class="col-xs-12 col-s-12 col-md-12 col-lg-12">
+			<h2>Contact</h2>
+			<p> Lorem ipsum dolor sit amet, consectetur adipisicing elit. Voluptatem odit esse quae, et praesentium eligendi, corporis minima repudiandae similique voluptatum, inventore quia velit sequi asperiores obcaecati ex. Dolorem, temporibus, doloremque.</p>
 
-		<p> Larchwood 24, Lenexa, Kansas City, KS, 02314.</p>
+			<p> Larchwood 24, Lenexa, Kansas City, KS, 02314.</p>
 
-		<p> Please leave us a message and we will reply. </p>
+			<p> Please leave us a message and we will reply. </p>
 
-		<form>
-			<Name>
-			<How many people>
-			<number>
-			<message>
-
-		</form>
-
-		<button> Send Message </button>
+			<form>
+				<div><input type="text" placeholder="Name"></div>
+				<div><input type="text" placeholder="How many people?"></div>
+				<div><input type="text" placeholder="(555) 555 - 555"></div>
+				<div><input textarea placeholder="Write your message"></div>
+				<button> SEND MESSAGE </button>
+			</form> 
+		</div>
 	</section>
-	<footer>
+	<footer class="footer row">
+		<div class="col-xs-12 col-s-12 col-md-12 col-lg-12">
+			<div class="bloquefooter">
+				<i class="fab fa-facebook fa-2x "></i>
+				<i class="fab fa-twitter fa-2x "></i>
+				<i class="fab fa-github fa-2x "></i>			
+			</div>
+				<p> © Isis Cortes 2018 </p>
+		</div>
 	</footer>
 
+	<script defer src= "https://use.fontawesome.com/releases/v5.0.6/js/all.js"></script>
 
 	
 </body>
